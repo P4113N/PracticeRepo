@@ -1,0 +1,3 @@
+Line 1: This is a Test Text File for Git Practice
+
+Line 2: Blank Line
