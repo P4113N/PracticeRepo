@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Optimization Result</title>
+<h1>Optimal Allocation</h1>
+<p>Total Budget: {{ budget }}</p>
+<p>Num Periods: {{ periods }}</p>
+<table border="1">
+<tr><th>Channel</th><th>Budget Allocation</th></tr>
+{% for channel, value in allocation.items() %}
+<tr><td>{{ channel }}</td><td>{{ value }}</td></tr>
+{% endfor %}
+</table>
+<p><a href="/">Back</a></p>
